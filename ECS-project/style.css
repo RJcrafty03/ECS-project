@@ -1,10 +1,13 @@
 .bodyColor{
     background-color:#4fa8d8;
     }
-    .trueCenter{
+    .row{
         display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-    /* .grandfather{ 
-    }  */
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
